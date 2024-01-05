@@ -142,8 +142,8 @@ header {
 .project_section{
     background-color: #ECECE7;
     width: 100%;
-    top: 800px;
-    height: 700px;
+    top: 1200px;
+    height: 800px;
     position: relative;
     z-index: 3; 
 }

@@ -142,10 +142,11 @@ header {
 .project_section{
     background-color: #ECECE7;
     width: 100%;
-    top: 800px;
-    height: 700px;
+    top: 1800px;
+    height: 800px;
     position: relative;
-    z-index: 3; 
+    z-index: 3; /* ヒーローセクションより背面に表示 */
+    transform: translateY(-50%); 
 }
 
 

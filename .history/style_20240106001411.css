@@ -10,8 +10,7 @@ header {
     width: 100%;
     height: 100px;
 	background-color: #3E3B3B;
-    position: fixed;
-    z-index: 10;
+    position: relative;
 }
 
 .Logo{
@@ -64,12 +63,10 @@ header {
 }
 
 .hero_section{
-    top: 100px;
     background-color: #ECECE7;
     width: 100%;
     height: 700px;
-    position: fixed;
-    z-index: 2;
+    position: relative;
 }
 
 .monitor_container{
@@ -142,10 +139,6 @@ header {
 .project_section{
     background-color: #ECECE7;
     width: 100%;
-    top: 800px;
-    height: 700px;
+    height: 800px;
     position: relative;
-    z-index: 3; 
 }
-
-

@@ -10,8 +10,7 @@ header {
     width: 100%;
     height: 100px;
 	background-color: #3E3B3B;
-    position: fixed;
-    z-index: 10;
+    position: relative;
 }
 
 .Logo{
@@ -64,11 +63,10 @@ header {
 }
 
 .hero_section{
-    top: 100px;
     background-color: #ECECE7;
     width: 100%;
     height: 700px;
-    position: fixed;
+    position: relative;
     z-index: 2;
 }
 
@@ -142,10 +140,40 @@ header {
 .project_section{
     background-color: #ECECE7;
     width: 100%;
-    top: 800px;
-    height: 700px;
+    height: 800px;
     position: relative;
-    z-index: 3; 
+    z-index: 1; /* ヒーローセクションより背面に表示 */
+    transform: translateY(-50%); 
 }
 
+/* Add to your style.css file */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+.hero_section {
+    position: relative;
+    z-index: 2; /* Make sure this section is above the next */
+    /* Other styles for hero_section */
+}
+
+.project_section {
+    position: relative;
+    z-index: 1; /* Ensure this is below the hero_section */
+    background: #fff; /* Set a background color */
+    transform: translateY(-50%); /* Adjust this value based on your design needs */
+    /* Other styles for project_section */
+}
+
+/* Additional global styles */
+.connect_container {
+    position: fixed; /* Example to fix the connect container */
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    /* Add additional styling as needed */
+}
 
