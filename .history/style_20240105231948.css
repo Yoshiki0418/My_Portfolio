@@ -105,14 +105,6 @@ header {
     height: auto;
 }
 
-.background2{
-    position: absolute;
-    top: 130px;
-    right: 200px;
-    width: 200px;
-    height: auto;
-}
-
 .circle1 {
     width: 18px;  
     height: 18px;     

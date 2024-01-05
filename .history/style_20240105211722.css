@@ -105,33 +105,25 @@ header {
     height: auto;
 }
 
-.background2{
-    position: absolute;
-    top: 130px;
-    right: 200px;
-    width: 200px;
-    height: auto;
-}
-
 .circle1 {
     width: 18px;  
     height: 18px;     
     border-radius: 50%; 
     background-color: rgb(255, 0, 34); 
-    margin-right: 6px;
+    margin-right: 3px;
 }
 
 .circle2 {
-    width: 18px;  
-    height: 18px;       
+    width: 20px;  
+    height: 20px;       
     border-radius: 50%; 
     background-color: rgb(255, 255, 0); 
-    margin-right: 6px;
+    margin-right: 3px;
 }
 
 .circle3 {
-    width: 18px;  
-    height: 18px;        
+    width: 20px;  
+    height: 20px;        
     border-radius: 50%; 
     background-color: rgb(47, 255, 0); 
 }
