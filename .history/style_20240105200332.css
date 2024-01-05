@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* サイズ計算をより予測しやすくするためのプロパティ */
+}
+
+header {
+	display: flex;					/*flexボックスを使う指定*/
+	align-items: center;			/*垂直揃えの指定。天地中央に配置されるように。*/
+    width: 100%;
+    height: 100px;
+	background-color: #3E3B3B;
+}
+
+.Logo{
+    margin-left: 3%;
+    color: white;
+    font-family: 'Comic Sans MS', 'Arial Rounded MT Bold', sans-serif;
+}
+
+.page_changer{
+    display: flex;				
+	align-items: center;
+    padding: 20px;
+}
+
+.changer_font{
+    color: white;
+    margin: 10px;
+}
+
+.connect_font{
+    color: white;
+}
+
+.connect_container{
+    width: 180px;
+    height: 35px;
+    border: 1px solid white;
+}
