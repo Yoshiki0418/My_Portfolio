@@ -74,23 +74,5 @@ header {
     width: 730px;
     height: 450px;
     margin-left: 200px;
-    border: 1px solid rgb(0, 0, 0);
-    position: absolute;
-    top: 100px;
-    border-radius: 25px;
-}
-
-.background{
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    height: auto;
-}
-
-.background_sub{
-    position: absolute;
-    bottom: 30px;
-    left: 500px;
-    width: 200px;
-    height: auto;
+    margin-top: 150px;
 }

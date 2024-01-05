@@ -90,7 +90,6 @@ header {
 .background_sub{
     position: absolute;
     bottom: 30px;
-    left: 500px;
     width: 200px;
     height: auto;
 }
