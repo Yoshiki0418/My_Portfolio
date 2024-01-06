@@ -73,7 +73,7 @@ header {
 }
 
 .monitor_container{
-    background-color: #F9F9F9;
+    background-color: #E9EFCF;
     width: 730px;
     height: 450px;
     margin-left: 200px;
@@ -209,24 +209,5 @@ header {
     width: 45%;
     height: auto;
     border: 1px solid rgba(52, 52, 52, 0.381);
-    border-radius: 30px;
 }
 
-#typed-text:after {
-    content: '|';
-    animation: blink 1s step-end infinite;
-}
-
-@keyframes blink {
-    from, to { color: transparent }
-    50% { color: black }
-}
-#typed-text2:after {
-    content: '|';
-    animation: blink 1s step-end infinite;
-}
-
-@keyframes blink {
-    from, to { color: transparent }
-    50% { color: black }
-}

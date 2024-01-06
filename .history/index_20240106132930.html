@@ -30,8 +30,6 @@
                     <div class="circle2"></div>
                     <div class="circle3"></div>
                 </div>
-                <h2 id="typed-text"></h2>
-                <h2 id="typed-text2">I'm web </h2>
             </div>
             <img class="background2" src="static/image/4.png">
             <img class="background_sub" src="static/image/2.png">
@@ -49,56 +47,9 @@
             </div>
             <div class="projects_show_space">
                 <img class="project_image" src="static/image/project1.png">
-                <img class="project_image" src="static/image/project2.png">
             </div>
         </section>
     </main>
-    <script>
-        document.addEventListener('DOMContentLoaded', (event) => {
-            const text = "Welcome to my page!";
-            const typingElement = document.getElementById('typed-text');
-            let index = 0;
-
-            function typeCharacter() {
-                if (index < text.length) {
-                    typingElement.textContent += text.charAt(index);
-                    index++;
-                    setTimeout(typeCharacter, 150); // Delay between each character
-                }
-            }
-
-            typeCharacter(); // Start typing effect
-        });
-    </script>
-    <script>
-        const typedText = document.getElementById('typed-text2');
-            const fullText = 'I\'m web developer!';
-            const partialText = 'I\'m web designer!';
-            let isDeleting = false;
-            let index = 'I\'m web '.length;
-
-            function updateText() {
-                if (!isDeleting) {
-                    typedText.textContent = fullText.slice(0, index++);
-                } else {
-                    typedText.textContent = partialText.slice(0, index--);
-                }
-
-                if (index === fullText.length) {
-                    // Start deleting after a pause
-                    setTimeout(() => { isDeleting = true; }, 1000);
-                } else if (isDeleting && index === 'I\'m web '.length) {
-                    // Switch from deleting to typing the alternative
-                    isDeleting = false;
-                    setTimeout(() => { index = 'I\'m web '.length; }, 200);
-                }
-
-                setTimeout(updateText, isDeleting ? 100 : 200); // Speed of deleting and typing
-            }
-
-            // Start the typing effect
-            updateText();
-
-    </script>
+    
 </body>
 </html>

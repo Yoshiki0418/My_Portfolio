@@ -73,7 +73,7 @@ header {
 }
 
 .monitor_container{
-    background-color: #F9F9F9;
+    background-color: #E9EFCF;
     width: 730px;
     height: 450px;
     margin-left: 200px;
@@ -178,11 +178,6 @@ header {
     background-color: #3E3B3B;
     width: 280px;
     height: 70px;
-    border: 1px solid white;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
 }
 
 #web{
@@ -190,43 +185,6 @@ header {
 }
 
 #andoroid{
-    border-radius: 0px 40px 40px 0px;
+    border-radius: 40px 0px 0px 40px;
 }
 
-.select_block h2{
-    color: #F9F9F9;
-}
-
-.projects_show_space{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    position: absolute;
-    top: 300px;
-}
-
-.project_image{
-    width: 45%;
-    height: auto;
-    border: 1px solid rgba(52, 52, 52, 0.381);
-    border-radius: 30px;
-}
-
-#typed-text:after {
-    content: '|';
-    animation: blink 1s step-end infinite;
-}
-
-@keyframes blink {
-    from, to { color: transparent }
-    50% { color: black }
-}
-#typed-text2:after {
-    content: '|';
-    animation: blink 1s step-end infinite;
-}
-
-@keyframes blink {
-    from, to { color: transparent }
-    50% { color: black }
-}

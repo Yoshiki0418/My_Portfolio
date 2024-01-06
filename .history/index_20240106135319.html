@@ -70,35 +70,5 @@
             typeCharacter(); // Start typing effect
         });
     </script>
-    <script>
-        const typedText = document.getElementById('typed-text2');
-            const fullText = 'I\'m web developer!';
-            const partialText = 'I\'m web designer!';
-            let isDeleting = false;
-            let index = 'I\'m web '.length;
-
-            function updateText() {
-                if (!isDeleting) {
-                    typedText.textContent = fullText.slice(0, index++);
-                } else {
-                    typedText.textContent = partialText.slice(0, index--);
-                }
-
-                if (index === fullText.length) {
-                    // Start deleting after a pause
-                    setTimeout(() => { isDeleting = true; }, 1000);
-                } else if (isDeleting && index === 'I\'m web '.length) {
-                    // Switch from deleting to typing the alternative
-                    isDeleting = false;
-                    setTimeout(() => { index = 'I\'m web '.length; }, 200);
-                }
-
-                setTimeout(updateText, isDeleting ? 100 : 200); // Speed of deleting and typing
-            }
-
-            // Start the typing effect
-            updateText();
-
-    </script>
 </body>
 </html>
